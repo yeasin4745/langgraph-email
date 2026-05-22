@@ -60,7 +60,7 @@ langgraph-email/
 
 The application uses the following configuration:
 
-- **Model**: Gemini AI model (currently set to gemini-ultra)
+- **Model**: Gemini AI model (currently set to gemini-2.5-flash)
 - **API Key**: Retrieved from the `GEMINI_API_KEY` environment variable
 
 ## Workflow
@@ -84,14 +84,6 @@ The application uses the following configuration:
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License.
-
-## Author
-
-Created by [Your Name]
 
 ## Support
 
