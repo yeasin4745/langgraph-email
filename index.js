@@ -1,3 +1,4 @@
+import { Annotation, StateGraph, START, END } from "@langchain/langgraph";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import "dotenv/config"; // Load environment variables from .env file
 
@@ -17,7 +18,7 @@ const StateSchema = Annotation.Root({
 
 // 2. Initialize the Gemini AI model
 const gemini = new ChatGoogleGenerativeAI({ 
-    model: "gemini-ultra",
+    model: "gemini-2.5-flash",
     apiKey: process.env.GEMINI_API_KEY
 });
 
