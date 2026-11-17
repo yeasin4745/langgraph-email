@@ -20,7 +20,7 @@ A Node.js application that uses LangGraph to generate and validate professional 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/langgraph-email.git
+   git clone https://github.com/yeasin4745/langgraph-email.git
    cd langgraph-email
    ```
 
